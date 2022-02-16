@@ -1,6 +1,5 @@
 //Declarative
-
- pipeline{
+pipeline{
   agent any
    tools{
      maven "maven3.8.4"
@@ -48,7 +47,7 @@
         stage('message'){
                 steps{
                             sh "echo ci job completed"
-             }
+            }
     }
   }
 }
