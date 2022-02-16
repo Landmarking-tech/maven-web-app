@@ -32,7 +32,7 @@
            sh "mvn deploy"
           }
   }
-  stage(Predeployment'){
+  stage('Predeployment'){
         steps{ 
             sh "docker build -t devopstestimage/newproject ."
             sh "docker login -u devopstestimage -p Wanguni@$2074"
