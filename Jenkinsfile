@@ -45,11 +45,10 @@
              sh "docker run --name myapp -d-p 8000:8080 devopstestimage/newproject"
           }
    }
-                          stage('message'){
-                           steps{
-                            sh "echo ci job completed"
-                          }
-                 }
-          }
- }
- 
+         stage('message'){
+                steps{
+                       sh "echo ci job completed"
+           }
+    }
+    }
+}
