@@ -49,6 +49,6 @@
                 steps{
                        sh "echo ci job completed"
            }
-    }
-    }
+     }
+  }
 }
