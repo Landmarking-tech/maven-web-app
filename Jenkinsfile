@@ -29,8 +29,8 @@
   }
     stage('Upload Artifact'){
         steps{
-                           sh "echo upload artifacts into Nexus"
-                           sh "mvn deploy"
+                            sh "echo upload artifacts into Nexus"
+                            sh "mvn deploy"
              }
   }
      stage('Predeployment'){
