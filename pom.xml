@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://34.205.33.140:5000/</sonar.host.url>
+		<sonar.host.url>http://44.201.219.197:7000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin123</sonar.password>
+		<sonar.password>Wanguni@$2074</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-release/</url>
+	      <url>http://44.201.219.197:4000/repository/javaprojectrelease//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://34.205.33.140:4000/repository/ebay-bts-snapshot/</url>
+	      <url>http://44.201.219.197:4000/repository/javaprojectsnapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
