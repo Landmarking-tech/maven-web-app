@@ -42,7 +42,7 @@
         stage('Deployment'){
          steps{
              sh "echo ready for deployment"
-             sh "docker run --name myproject -d-p 8000:8080 devopstestimage/newproject"
+             sh "docker run --name myproject -d -p 8000:8080 devopstestimage/newproject"
           }
    }
          stage('message'){
